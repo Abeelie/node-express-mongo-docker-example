@@ -1,0 +1,25 @@
+{
+  "name": "docker-example",
+  "version": "1.0.0",
+  "description": "Example of using docker with express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Abraham Elie",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.1",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.1.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
